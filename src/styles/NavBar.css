@@ -1,0 +1,52 @@
+.navbar-container {
+  margin-top: 0;
+  background-color:#C86304; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  border-bottom: 0.2rem solid;
+  margin-top: 0; 
+}
+
+
+.navbar-items{
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+.navbar-items:hover {
+  font-size: 1.3rem;
+}
+
+.navbar-items-cart{
+  list-style: none;
+}
+.navbar-items-cart:hover{
+  border-bottom: none;
+}
+
+.cart-container{
+  display: flex;
+}
+.cart-img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.cart-counter {
+  font-size: 1.6rem;
+  color:#000;
+}
